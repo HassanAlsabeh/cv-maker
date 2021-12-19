@@ -85,7 +85,7 @@ export default function Cv1({ navigation }) {
           <div class="allLeft" margin:"30px>
                                                                                       <!--picture-->
               <div style="width:100%" >
-                  <img src= "http://192.168.0.116:8000/${
+                  <img src= "https://cv-maker1-backend.herokuapp.com/${
                     userdetails && userdetails.file_path
                   }" style="width:70%; height:"70%">
                   <h2 class="jane">${userdetails && userdetails.fname}${
@@ -275,7 +275,7 @@ export default function Cv1({ navigation }) {
       {console.log({ userdetails })}
       <Image
         source={{
-          uri: `http://192.168.0.116:8000/${
+          uri: `https://cv-maker1-backend.herokuapp.com/${
             userdetails && userdetails.file_path
           }`,
         }}

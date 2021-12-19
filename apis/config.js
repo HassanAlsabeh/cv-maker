@@ -1,1 +1,1 @@
-export const URL = "http://192.168.0.116:8000/";
+export const URL = "https://cv-maker1-backend.herokuapp.com/";

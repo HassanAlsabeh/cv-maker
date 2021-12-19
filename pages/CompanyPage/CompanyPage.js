@@ -166,7 +166,7 @@ export default function CompanyPage({ navigation }) {
                       {item.user_info.file_path && (
                         <Image
                           source={{
-                            uri: `http://192.168.0.116:8000/${item.user_info.file_path}`,
+                            uri: `https://cv-maker1-backend.herokuapp.com/${item.user_info.file_path}`,
                           }}
                           style={styles.cardAvatar}
                         />

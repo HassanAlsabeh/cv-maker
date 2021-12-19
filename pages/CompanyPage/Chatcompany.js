@@ -88,7 +88,7 @@ export default function Chatcompany({ route, navigation }) {
           <Image
             style={styles.userProfileImage}
             source={{
-              uri: `http://192.168.0.116:8000/${file_path.user_photo}`,
+              uri: `https://cv-maker1-backend.herokuapp.com/${file_path.user_photo}`,
             }}
           />
           <View

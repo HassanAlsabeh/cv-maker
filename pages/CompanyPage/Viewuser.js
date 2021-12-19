@@ -43,7 +43,7 @@ export default function Viewuser({ route, navigation }) {
             <Image
               style={{ ...styles.userProfileImage }}
               source={{
-                uri: `http://192.168.0.116:8000/${userdetails?.file_path}`,
+                uri: `https://cv-maker1-backend.herokuapp.com/${userdetails?.file_path}`,
               }}
             />
           </TouchableOpacity>

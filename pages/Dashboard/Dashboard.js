@@ -18,7 +18,7 @@ export default function Dashboard({ navigation }) {
   const majors = useSelector((state) => state.majors.majors);
   const user = useSelector((state) => state.userdata.users);
   const user_id = user.id;
-  console.log("user_id",user_id);
+  console.log("user_id", user_id);
   const dispatch = useDispatch();
   const [value, setValue] = useState("");
 
@@ -87,6 +87,13 @@ export default function Dashboard({ navigation }) {
               }}
             >
               <Text>Continue</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate("TabPages");
+              }}
+            >
+              <Text>Skip</Text>
             </TouchableOpacity>
           </View>
         </View>
